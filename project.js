@@ -26,7 +26,7 @@ function toggleMode(){
         // education.style.transition="ease-in-out 1s";
         contact.style.background="black";
         contact.style.transition="ease-in-out 1s";
-        nightmode.innerHTML='<i class="fa-solid fa-sun fa-2x baby"></i>'
+        nightmode.innerHTML='<i class="fa-solid fa-sun fa-2x baby"></i>';
         console.log(count+" Dark Mode");
 
 
@@ -38,9 +38,9 @@ function toggleMode(){
         // education.style.transition="ease-in-out 1s";
         contact.style.background="linear-gradient( #bdc3c7 , #2c3e50)";
         contact.style.transition="ease-in-out 1s";
-        nightmode.innerHTML='<i class="fa-solid fa-moon fa-2x "></i>'
+        nightmode.innerHTML='<i class="fa-solid fa-moon fa-2x "></i>';
         console.log(count+" Light Mode");
     }
     count+=1;
 }
-btn.addEventListener("click",toggleMode)
+btn.addEventListener("click",toggleMode);
